@@ -30,7 +30,7 @@ case 's':
 str = va_arg(list, char*);
 if (!str)
 str = "(nil)";
-printf("%s%s", sep, str);
+printf("%s%s\n", sep, str);
 break;
 default:
 i++;
@@ -38,6 +38,8 @@ continue;
 }
 sep = ", ";
 i++;
+printf("\n");
+va_end(list);
 }
 }
 }
