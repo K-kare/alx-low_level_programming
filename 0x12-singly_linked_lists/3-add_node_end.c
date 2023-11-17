@@ -2,7 +2,7 @@
 #include <string.h>
 /**
 *add_node_end - adds node at the end
-*@head - head of the node
+*@head: head of the node
 *@str: string
 *Return: address og=f the element
 */
