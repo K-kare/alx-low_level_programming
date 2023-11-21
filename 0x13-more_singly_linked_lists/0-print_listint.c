@@ -11,8 +11,8 @@ size_t count = 0;
 while (h)
 {
 printf("%d\n", h->n);
-count++;
 h = h->next;
+count++;
 }
 return (count);
 }
