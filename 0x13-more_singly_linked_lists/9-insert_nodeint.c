@@ -14,6 +14,10 @@ listint_t *head2 = malloc(sizeof(listint_t));
 ptr = *head;
 head2->n = n;
 head2->next = NULL;
+if (head2 == NULL)
+{
+return (head2);
+}
 if (*head == NULL)
 {
 *head = head2;
