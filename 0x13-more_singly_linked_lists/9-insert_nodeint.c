@@ -19,7 +19,7 @@ if (idx == 0)
 ptr = head2;
 return (head2);
 }
-for (i = 0; i < idx; i++)
+for (i = 0; i < idx - 1 && ptr != NULL && idx != 0; i++)
 {
 ptr = ptr->next;
 }
