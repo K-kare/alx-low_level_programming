@@ -14,7 +14,7 @@ if (array == NULL)
 return (-1);
 left = 0;
 right = size - 1;
-while (left < right)
+while (left <= right)
 {
 printf("Searching in array: ");
 for (i = left; i < right; i++)
